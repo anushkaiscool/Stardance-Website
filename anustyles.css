@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(246, 188, 197);
+}
+
+#intro {
+    background-color: rgb(189, 244, 225);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Helvetica Neue", Helvetica, sans-serif;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20%;
+    border-color: aquamarine;
+    border-style: double;
+    border-width: 20;
+    color: black;
+
+}
