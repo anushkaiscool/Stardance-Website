@@ -15,10 +15,14 @@ body {
 
 }
 
+#profile-picture {
+    margin: 20px 0;
+}
+
 #profile-picture img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
     border: 5px double #fa2166;
 }
