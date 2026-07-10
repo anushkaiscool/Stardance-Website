@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(57, 159, 84);
+    background-color: rgb(245, 219, 225);
 }
 
 #intro {
@@ -25,4 +25,9 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 5px double #fa2166;
+}
+
+#bg-img1 {
+    width: 100%;
+    height: auto;
 }
