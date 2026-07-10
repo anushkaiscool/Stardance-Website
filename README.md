@@ -23,18 +23,6 @@ This website is my online portfolio. It highlights:
 - Procreate(for profile picture design)
 
 
-## Running Locally
-
-1. Clone the repository.
-
-```bash
-git clone https://github.com/yourusername/repository-name.git
-```
-
-2. Open `index.html` in your browser.
-
-No additional installation is required.
-
 
 # Future Improvements
 - [ ] More animations
