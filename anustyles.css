@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(246, 188, 197);
+    background-color: rgb(249, 232, 234);
 }
 
 #intro {
     background-color: rgb(189, 244, 225);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Helvetica Neue", Helvetica, sans-serif;
-    height: fit-content;
-    width: fit-content;
-    border-radius: 20%;
-    border-color: aquamarine;
+    height: 300px;
+    width: 600px;
+    border-radius: 5%;
+    border-color: rgb(151, 235, 207);
     border-style: double;
     border-width: 20;
     color: black;
