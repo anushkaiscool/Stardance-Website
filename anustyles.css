@@ -30,4 +30,7 @@ body {
 #bg-img1 {
     width: 100%;
     height: auto;
+    border-color: rgb(151, 235, 207);
+    border-style: double;
+    border-width: 20px;
 }
