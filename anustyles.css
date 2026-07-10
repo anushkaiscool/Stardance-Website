@@ -1,16 +1,9 @@
-#intro {
-    background-color: rgb(189, 244, 225);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Helvetica Neue", Helvetica, sans-serif;
-    height: 300px;
-    width: 600px;
-    border-radius: 5%;
-    border-color: rgb(151, 235, 207);
-    border-style: double;
-    border-width: 20;
-    color: black;
-
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1d3d24;
 }
-
 
 .hero {
     min-height: 100vh;
@@ -42,7 +35,7 @@
 }
 
 .hero-image {
-    margin-left: 400px;
+    margin-left: 100px;
 }
 
 .hero-image img {
@@ -50,8 +43,8 @@
     height: 350px;
     border-radius: 50%;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-    border-style: dotted;
-    border-color: #3d2711;
+    border-style: solid;
+    border-color: #ffffff;
     border-width: 10px;
 }
 
@@ -73,12 +66,111 @@
 
 .hero-nav a {
     text-decoration: wavy;
-    text-decoration-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    text-decoration-color: #3d2711;
+    color: #3d2711;
     font-size: 1.2rem;
     font-weight: bold;
     transition: ease-in-out 0.3s;
-    background-color: #b37563;
+    background-color: #fff87a;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.about-content {
+    width: 70%;
+    max-width: 900px;
+
+    background-color: #a3cc9d;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    border: 2px double #1d3d24;
+}
+
+#about {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#fun-facts {
+    flex: 1;
+}
+
+#fun-facts h2 {
+    margin-top: 0;
+    color: #1d3d24;
+    font-size: 1.2rem;
+}
+
+#fun-facts-list {
+    color: #1d3d24;
+    font-size: 1rem;
+    padding-left: 20px;
+    list-style-type: symbols(star)
+}
+
+#books h2 {
+    color: #1d3d24;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#books ul {
+    color: #1d3d24;
+    font-size: 1rem;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+#books {
+    background-color: #a3cc9d;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px double #1d3d24;
+}
+
+#projects {
+    background-color: #a3cc9d;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px double #1d3d24;
+}
+
+#projects h2 {
+    color: #1d3d24;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+    background-color: #1d3d24;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#crochet {
+    background-color: #a3cc9d;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px double #1d3d24;
+}
+
+#crochet h2 {
+    color: #1d3d24;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
